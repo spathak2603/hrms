@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Approach
+
+Followed mobile-first design approach.
+
+## Layout
+
+Followed wrapper approach for layout in the form of container and content. For Example : Container "Shell" contains "Side Nav, Header and Content" .
+
+## Design Pattern (Mobile)
+
+Tried to follow "Instagram and LinkedIn layout" approach for mobile design, where for mobile we have one container works as footer which basically contains quick access to some options.
+Side Navigation and footer containing icons are visible for mobile layout only.
+
+## Note
+
+This application mainly focused on Layout and Design.
+This can be much optimized.
+Many links and icons does not contain any functions and routings.
