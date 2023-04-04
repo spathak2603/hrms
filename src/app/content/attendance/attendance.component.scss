@@ -1,15 +1,15 @@
 @import '../../../assets/scss/variables.scss';
 
 .attendance-card{
-    width: rem(500);
+    width: 100%;
 }
 .time{
   font-size: small;
 }
 
 img{
-  width: 7.375rem;
-  height: 7rem;
+  width: 100%;
+  height: auto;
 }
 .large{
   font-family: "Times New Roman";
