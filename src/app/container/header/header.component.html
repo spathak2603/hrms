@@ -1,0 +1,61 @@
+<div class="background">
+    <div class="login-header">
+        <header>
+            
+            <nav class="">
+              <div ngbDropdown
+                class="profile-wrapper">
+                <div class="d-flex .align-items-center">
+                  <div class="icon-container">
+                  <span>
+                    <img src="../../../assets/icons/image 2.png"
+                      class="icon-button">
+                  </span>
+                  <span>
+                    <img src="../../../assets/icons/Idea.png"
+                      class="icon-button">
+                  </span>
+                  <span>
+                    <img src="../../../assets/icons/Store.png"
+                      class="icon-button">
+                  </span>
+                  <span>
+                    <img src="../../../assets/icons/Notification--new.png"
+                      class="icon-button">
+                  </span>
+                  <span>
+                    <img src="../../../assets/icons/Pin--filled.png"
+                      class="icon-button">
+                  </span>
+                </div>
+                  <div>
+                    <img src="../../../assets/images/__avatar_url.png"
+                      class="img-login">
+                  </div>
+                  <div>
+                    <p class="name">Shubham Pathak</p>
+                    <p class="designation">Designation Here</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="down-arrow"
+                    mat-icon-button
+                    [matMenuTriggerFor]="menu"
+                    aria-label="Example icon-button with a menu">
+                    <mat-icon class="arrow down">keyboard_arrow_down</mat-icon>
+                  </div>
+                  <mat-menu #menu="matMenu">
+                    <div mat-menu-item>
+                      <span><img class="img-login" src="../../../assets/images/__avatar_url.png"> Profile Strength 85%</span>
+                      
+                    </div>
+                    <div mat-menu-item>
+                      <span>LogOut</span>
+                    </div>
+                  </mat-menu>
+                </div>
+              </div>
+            </nav>
+          </header>
+    </div>
+</div>

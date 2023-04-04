@@ -1,0 +1,53 @@
+<div class="row">
+<div class="col-6 col-lg-6 col-sm-12">
+<div class="welcome">Hello, Shubham!</div>
+<div class="message">Hope you are having a great day</div>
+<div class="card menu-card">
+    <div class="card-body flex-space-between">
+      <div>
+        <img src="../../../assets/images/Frame 1254 (3).png" alt=""> Post
+      </div>
+      |
+      <div>
+        <img src="../../../assets/images/Frame 1254.png" alt=""> Badge
+    </div>
+    |
+      <div>
+        <img src="../../../assets/images/Frame 1254 (1).png" alt=""> Reward Point
+    </div>
+    |
+    <div>
+        <img src="../../../assets/images/Frame 1254 (2).png" alt=""> Endorse
+    </div>
+
+    </div>
+  </div>
+  <div class="pt-2" *ngFor="let item of arr">
+    <app-content-post></app-content-post>
+  </div>
+  </div>
+
+  <div class="col-6 col-lg-6 col-sm-12 hide-panel">
+    <div class="message">Quick Actions</div>
+    <div class="pt-2">
+      Mark Attendance
+    </div>
+    <div class="pt-2">
+      <app-attendance></app-attendance>
+    </div>
+    <div class="pt-2">
+      Calendar
+    </div>
+    <div class="pt-2">
+      <app-calendar></app-calendar>
+    </div>
+
+    <div class="pt-2">
+      <app-content-card></app-content-card>
+    </div>
+    <div class="pt-2">
+      <app-feedback-card></app-feedback-card>
+    </div>
+      </div>
+   
+  </div>

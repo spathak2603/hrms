@@ -1,0 +1,69 @@
+<mat-sidenav #snav class="ps-3" [opened]="true" [mode]="'over'" [fixedInViewport]="true" fixedTopGap="0"
+    class="background">
+    <div class="background">
+        <img src="../../../assets/images/image 1.png" class="img-pos" alt="Logo" />
+    </div>
+    <mat-nav-list class="mat-nav background">
+        <div>
+            <mat-list-item class="list-item" [routerLinkActive]="['active']">
+
+                <a matLine class="pl-7" [routerLink]="['/attendance']">
+                    <img src="" [class.active]="'selected'" height="18" width="21" />
+                    &nbsp;
+                    <span class="sidebar-title">Attendance</span>
+                </a>
+            </mat-list-item>
+            <mat-list-item class="list-item" [routerLinkActive]="['active']">
+                <a matLine class="pl-7" style="padding-left: 20%; font-weight: lighter" [routerLink]="['/leave-management']">
+                    <img src="../../../assets/icons/master.svg" alt="" [class.active]="'selected'" height="18"
+                        width="21" />
+                    &nbsp;<span class="sidebar-title">Leave Management</span></a>
+            </mat-list-item>
+
+            <mat-list-item class="list-item" [routerLinkActive]="['active']" [routerLink]="['/initiatives']">
+                <a matLine class="pl-7" style="padding-left: 20%; font-weight: lighter">
+                    <img src="" alt="" [class.active]="'selected'" height="18" width="21" />
+                    &nbsp;<span class="sidebar-title">Initiatives</span></a>
+            </mat-list-item>
+
+            <mat-list-item [routerLinkActive]="['active']" class="list-item">
+                <a matLine class="pl-7" [routerLink]="['/feedback']">
+                    <img src="" alt="" [class.active]="'selected'" height="18" width="21" />
+                    &nbsp; <span class="sidebar-title">Review & Feedback</span>
+                </a>
+            </mat-list-item>
+
+            <mat-list-item [routerLinkActive]="['active']" class="list-item">
+                <a matLine class="pl-7">
+                    <img src="" alt="" [class.active]="'selected'" height="18" width="21" />
+                    &nbsp; <span class="sidebar-title">Quick Catchup</span>
+                </a>
+            </mat-list-item>
+
+            <mat-list-item class="list-item" [routerLinkActive]="['active']">
+                <a matLine class="pl-7" style="padding-left: 20%; font-weight: lighter">
+                    <img src="" alt="" [class.active]="'selected'" height="18" width="21" />
+                    &nbsp;<span class="sidebar-title">Team Management</span></a>
+            </mat-list-item>
+
+            <mat-list-item class="list-item" [routerLinkActive]="['active']">
+                <a matLine class="pl-7" style="padding-left: 20%; font-weight: lighter">
+                    <img src="" alt="" [class.active]="'selected'" height="18" width="21" />
+                    &nbsp;<span class="sidebar-title">Profile</span></a>
+            </mat-list-item>
+
+            <mat-list-item class="list-item" [routerLinkActive]="['active']">
+                <a matLine class="pl-7" style="padding-left: 20%; font-weight: lighter">
+                    <img src="" alt="" [class.active]="'selected'" height="18" width="21" />
+                    &nbsp;<span class="sidebar-title">Settings</span></a>
+            </mat-list-item>
+        </div>
+    </mat-nav-list>
+
+</mat-sidenav>
+<div class="background image-box">
+    <div>
+        <img src="./../../../assets/images/image 1.png" alt="Card image cap">
+    </div>
+</div>
+<app-side-card></app-side-card>

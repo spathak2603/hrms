@@ -1,0 +1,22 @@
+<div class="row flex">
+    <div class="flex-space-between">
+        <div>
+            Continous Feedback
+        </div>
+        <div>
+            <a>See All</a>
+        </div>
+    </div>
+</div>
+<div class="pt-2">
+    <div class="card menu-card">
+        <div class="card-body">
+            <div class="row flex pt-2" *ngFor="let item of feedbacks">
+                <div class="flex-start">
+                <div class="count"><img [src]='item.src' alt=""></div>
+                <div class="description">{{item.description}}</div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>

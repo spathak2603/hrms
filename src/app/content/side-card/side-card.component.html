@@ -1,0 +1,45 @@
+<div class="card post-card">
+    <div class="card-body">
+      <div class="card-title row">
+        <div class="celebration title">
+          Today's Celebration  
+        </div>
+    </div>
+        <div class="row flex pt-2" *ngFor="let birthday of birthdays">
+            <div class="flex-start">
+            <div class="count"><img [src]='birthday.src' alt=""></div>
+            <div class="description">{{birthday.message}}</div>
+        </div>
+      </div>
+    </div>
+  <hr/>
+    <div class="card-body">
+      <div class="card-title row">
+        <div class="core-value title">
+          Core Values
+        </div>
+    </div>
+        <div class="row flex pt-2" *ngFor="let value of coreValues">
+            <div class="flex-start">
+            <div class="description">{{value.message}}</div>
+        </div>
+      </div>
+    </div>
+  <hr/>
+  <div class="card-body">
+    <div class="card-title row">
+      <div class="referral title">
+        Referral/IJP
+      </div>
+  </div>
+      <div class="row flex pt-2" *ngFor="let value of referral">
+          <div class="flex-start">
+          <div class="description">{{value.opening}}</div>
+          <div class="type">{{value.type}}</div>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  
+  

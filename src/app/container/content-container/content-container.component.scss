@@ -1,0 +1,25 @@
+@import '../../../assets/scss/variables.scss';
+
+.hide-panel{
+    display: none;
+}
+.message{
+    font-family: 'Times New Roman';
+    font-weight: $font-weight-normal;
+    font-size: $font-size-s;
+}
+
+.menu-card{
+    width: rem(352);
+    border-radius: rem(8);
+}
+
+@media (min-width: 820px) {
+    .hide-panel{
+        display: block;
+    }
+    .menu-card{
+        width: rem(536);
+    }
+  }
+  

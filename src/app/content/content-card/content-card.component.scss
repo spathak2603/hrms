@@ -1,0 +1,16 @@
+@import "../../../assets/scss/variables.scss";
+
+.count{
+    height: rem(37);
+    width: rem(39);
+    border-radius: rem(4);
+    padding: rem(8);
+    gap: rem(10);
+    background-color: $thin-gray;
+}
+.description{
+    padding-left: 2%;
+    padding: rem(8);
+    font-size: $font-size-sm;
+    font-weight: $font-weight-medium-bold;
+}

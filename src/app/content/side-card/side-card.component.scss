@@ -1,0 +1,42 @@
+@import "../../../assets/scss/variables.scss";
+
+.post-card{
+    width: 22rem;
+}
+
+@media (min-width: 820px) {
+    .post-card{
+       width: 100%;
+    }
+    .celebration{
+        background-color: $color-celebration;
+    }
+    .core-value{
+        background-color: $color-coreValue;
+    }
+    .referral{
+        background-color: $color-referral;
+    }
+        .count{
+            height: rem(37);
+            width: rem(39);
+            border-radius: rem(4);
+            gap: rem(10);
+            padding: rem(8);
+        }
+        .description{
+            padding-left: 2%;
+            padding: rem(8);
+            font-size: $font-size-s;
+        }
+
+        .type{
+            color: $white;
+            background-color: $color-blue;
+            padding: rem(8);
+            font-size: $font-size-xs;
+            border-radius: rem(8);
+            height: rem(30);
+        }
+    
+  }

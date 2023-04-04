@@ -1,0 +1,111 @@
+@import '../../../assets/scss/variables.scss';
+
+app-side-card{
+  display: none;
+}
+.side-card{
+  display: none;
+}
+.image-box{
+  display: none;
+}
+.img-pos {
+  margin-left: rem(36);
+  margin-top: rem(23);
+}
+
+.logo-pos {
+  margin-top: rem(23);
+  margin-left: rem(12);
+}
+
+.sidebar-title {
+  color: $black-medium;  
+  font-style: $font-style-normal;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-base;
+  line-height: $line-height-24;
+  letter-spacing: $letter-spacing-base;
+}
+
+.accordion-title {
+  display: flex;
+  flex-grow: 1;
+  margin-right: $font-size-base;
+}
+
+.mat-list-base {
+  .mat-list-item, .mat-list-item-content {
+    :hover {
+      background-color: $gray-250 !important;
+      color: $primary !important;
+      border-radius: $font-size-s !important;
+    }
+  
+    :active {
+      background-color: $gray-250 !important;
+      color: $primary !important;
+      border-radius: $font-size-s !important;
+    }
+  }
+  
+}
+
+.mat-nav-list .mat-list-item:focus,
+.mat-action-list .mat-list-item:focus,
+.mat-list-option:focus {
+  background-color: $gray-250 !important;
+  color: $primary !important;
+  border-radius: $font-size-s !important;
+}
+mat-expansion-panel-header:hover {
+  background-color: $gray-250 !important; 
+  color: $primary;
+}
+
+.mat-drawer-inner-container {
+  width: 100% !important;
+}
+
+.list-item {
+  font-weight: bold !important;
+  font-size: $font-size-s !important;
+  font-family: $font-family-base !important;
+  font-weight: normal !important;
+}
+
+.pl-7 {
+  padding-left: 3% !important;
+}
+
+.active {
+  color: $primary !important;
+  border-radius: $font-size-s !important;
+  background: $gray-250 !important;
+}
+
+@media (min-width: 820px) {
+  mat-sidenav{
+    display: none;
+  }
+  app-side-card{
+    display: block;
+  }
+  .side-card{
+    display: block;
+  }
+  .image-box{
+    display: block;
+    height: rem(68);
+  }
+}
+
+@media only screen and (max-width : 800px) {
+  .img-pos {
+    height: 2rem !important;
+  }
+
+  .logo-pos {
+    height: 2rem !important
+  }
+}

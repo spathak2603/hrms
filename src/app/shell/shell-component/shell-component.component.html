@@ -1,0 +1,49 @@
+<div class="nav-icon"
+  [ngClass]="{change: !isNavCollapse}">
+  <div class="menu-icon" (click)="isNavCollapse=!isNavCollapse">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+
+
+<div class="shell-row">
+    <div [ngClass]="{collapse: isNavCollapse}"
+      class="col-left">
+      <app-side-bar></app-side-bar>
+      <div class="nav-bg"></div>
+    </div>
+    <div class="col-right">
+      <app-header></app-header>
+      <div class="outlet pt-5 hide">
+    <router-outlet></router-outlet>
+        <footer>
+          <div class="">
+            <div class="icon-container">
+            <span>
+              <img src="../../../assets/icons/image 2.png"
+                class="icon-button">
+            </span>
+            <span>
+              <img src="../../../assets/icons/Idea.png"
+                class="icon-button">
+            </span>
+            <span>
+              <img src="../../../assets/icons/Store.png"
+                class="icon-button">
+            </span>
+            <span>
+              <img src="../../../assets/icons/Notification--new.png"
+                class="icon-button">
+            </span>
+            <span>
+              <img src="../../../assets/icons/Pin--filled.png"
+                class="icon-button">
+            </span>
+          </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>

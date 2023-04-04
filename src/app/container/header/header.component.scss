@@ -1,0 +1,62 @@
+@import '../../../assets/scss/variables.scss';
+
+.background{
+  background-color: $white;
+}
+
+
+.profile-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.img-login {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-top: 0.3rem;
+  margin-right: 0.3rem;
+}
+.down-arrow {
+  cursor: pointer;
+  color: $subtitle-color;
+}
+
+.designation {
+  color: $text-color;
+  font-weight: $font-weight-normal;
+  font-size: 1rem;
+  color: $text-color;
+}
+
+.name {
+  font-weight: $font-weight-medium-bold;
+  font-size: 1.25rem;
+  margin-bottom: -0.1rem;
+  color: $subtitle-color;
+  font-family: $font-family-base;
+
+}
+
+.icon-container{
+  display: none;
+}
+
+@media (min-width: 820px) {
+  .icon-container{
+      display: flex;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+
+  .designation {
+    font-size: 0.75rem;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+  
+}

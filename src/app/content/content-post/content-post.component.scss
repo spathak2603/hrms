@@ -1,0 +1,11 @@
+@import "../../../assets/scss/variables.scss";
+
+.post-card{
+    width: 22rem;
+}
+
+@media (min-width: 820px) {
+    .post-card{
+       width: 100%;
+    }
+  }

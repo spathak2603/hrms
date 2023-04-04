@@ -1,0 +1,149 @@
+@import './functions.scss';
+
+/* font weights */
+$font-weight-thin: 200;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-medium-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-extra-bold: 800;
+$font-weight-black: 900;
+
+/* Base Colors */
+$white: #FFFFFF;
+$white-1: #E7EBF3; 
+$white-2: #FAFBFF;
+$grey: #d5d4d4;
+$thin-gray: #F0F2FF;
+$light-gray: #F5F6FF;
+$gray-100: #f6f6f6;
+$gray-150: #edeff1;
+$gray-200: #eaf0f1;
+$gray-250: #E6EFF8;
+$gray-300: #cccccc;
+$gray-350: #d5d4d4;
+$gray-400: #a9a9a9;
+$gray-450: #8c8c8c;
+$gray-500: #737375;
+$dark-gray: #555555;
+$black: #000000;
+$black-medium : #082737;
+
+/* other Colors */
+$primary: #38A3A5;
+$login-button: #38a3a5;
+$updated: #205072;
+$secondary: #7b63e2;
+$green-light: #2bcb6a;
+$green-light-shade: #d1f3d1;
+$green: #04aa6d;
+$green-dark: #3e885b;
+$red: #df4b33;
+$aqua: #00FFFF;
+$aqua-dark: #0dcaf0;
+$aqua-light: #94ecff;
+$success: #56bd5b;
+$info: #2196f3;
+$warning: #f7b422;
+$warning-light: #b7b468;
+$warning-light-extreme: #ceffc1;
+$danger: #e83535;
+$danger-active: #c60d0d;
+$grey-icon-color: #585858;
+$grey-icon-color-dark: #464646;
+$grey-back:lightgray;
+$name-color:#3E3E3E;
+$designation-color:#6b6b6b;
+$hover-color:#38A3A5;
+$headertitle-color: #393939;
+$green-dark-ats: #082737;
+$green-light-ats: #38A3A5;
+$secondary-ats: #405261;
+$pending-ats: #DC8B2B;
+$grey-back: lightgray;
+$name-color: #3E3E3E;
+$hover-color: #38A3A5;
+$title-color: #393939;
+$subtitle-color: #3E3E3E;
+$text-color: #6B6B6B;
+$complete-ats: #00967B;
+$cancel-ats: #D12F4D;
+$color-blue: #0F62FE;
+$color-celebration: #C2F3CF;
+$color-coreValue: #EBE2FB;
+$color-referral: #CDEBEB;
+// font sizes
+
+/* font sizes */
+$font-size-xs: 0.625rem; //10px
+$font-size-s: 0.75rem; // 12px
+$font-size-ss: 0.813rem;// 13px
+$font-size-sm: 0.875rem; // 14px
+$font-size-m: 0.938rem; //15px
+$font-size-base: 1rem; // 16px
+$font-size-lg: 1.125rem; //18px
+$font-size-xl: 1.75rem; //28px
+
+// font styles and font family
+$font-style-normal: normal;
+$font-family-base: 'Lexend', sans-serif;
+$font-family-secondary: Verdana, sans-serif;
+$font-family-ats: 'Lato';
+
+// line heights
+$line-height-base: rem(10);
+$line-height-19: 1.188rem; //19px
+$line-height-24: 1.5rem; //24px
+$line-height-26: 1.625rem; //26px
+$line-height-35: 2.188rem; //35px
+$line-height-xlg: 1.5;
+$line-height-lg: 1.25;
+$line-height-sm: 0.9375;
+$line-height-default: $font-size-base;
+
+// letter-spacing
+$letter-spacing-base: 0.01em;
+
+// Heading
+$h1-font-size: $font-size-base * 1.714;
+$h2-font-size: $font-size-base * 1.571;
+$h3-font-size: $font-size-base * 1.428;
+$h4-font-size: $font-size-base * 1.285;
+$h5-font-size: $font-size-base * 1.142;
+$h6-font-size: $font-size-base;
+
+// border radius and border color
+$border-radius: rem(6);
+$border-radius-xs: rem(2);
+$border-radius-md: rem(5);
+$border-radius-sm: rem(3);
+$border-radius-lg: rem(8);
+$border-radius-m: rem(12);
+$border-radius-base: rem(20);
+$border-radius-xlg: $font-size-base;
+$border-color: rgba($gray-300, 0);
+$border-color-light: #E2E2E2;
+$border-width: 1px;
+$border-width-2: 2px;
+$border-type-solid: solid;
+$border-type-dotted: dotted;
+$border-type-outset: outset;
+$border-type-dashed: dashed;
+
+//Default border size and thickness
+$border-size-base: rem(0) rem(4) rem(12) rem(4);
+$border-hr: rem(1) solid $white-1;
+
+// Default border to be used at various places
+$default-border: $border-width $border-type-solid $border-color;
+$border-shadow-base: $border-size-base $thin-gray;
+
+// Default padding and margins
+$padding: rem(10);
+$padding-5: rem(5);
+
+$margin: 1rem;
+$margin-10: rem(10);
+$margin-5: rem(5);
